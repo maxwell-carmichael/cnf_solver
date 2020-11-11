@@ -156,7 +156,6 @@ class SAT:
             else:
                 highestScorers = self.genHighestScorersWalkSAT(assignment)
                 j = random.choice(tuple(highestScorers))
-                # print("Choice: " + str(j))
                 self.flip(assignment, j)
 
         if self.PRINT_FLAG:
