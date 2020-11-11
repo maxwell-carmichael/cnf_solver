@@ -1,3 +1,5 @@
+# PROVIDED in cs76, Dartmouth College,
+
 class Sudoku:
     def __init__(self):
         self.numbers = [[0 for i in range(9)] for j in range(9)]
