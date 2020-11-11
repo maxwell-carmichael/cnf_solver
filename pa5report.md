@@ -1,10 +1,7 @@
 Maxwell Carmichael
 
-Professor Alberto Quattrini Li
-###### CS76 - PA5: Propositional Logic
-
 ### Introduction
-In this programming assignment, I created a propositional logic satisfiability solver, which takes information on a .cnf file and returns a boolean assignment of all variables which satisfies all clauses on the .cnf file.
+In this project, I created a propositional logic satisfiability solver, which takes information on a .cnf file and returns a boolean assignment of all variables which satisfies all clauses on the .cnf file.
 
 ### Description
 A lot of the code was provided, specifically the code for handling and converting Sudoku puzzles to conjunctive normal form and displaying .sol files. I created the SAT class, which takes a .cnf file and generates a boolean assignment (solution) using either the walksat or the gsat algorithms.
@@ -106,3 +103,7 @@ I've talked about both these parameters abstractly before, but here I just want 
 
 ##### Different h values
 I am not going to formally report results here. They are hard to measure because of how runtime depends on seeding, thus runtimes based on changes of h could be uncorrelated with the change of h. It would take too long for the scope of this programming assignment to formally measure the optimal h, so I am just going to go by intuition: 0.3 sometimes was not enough to escape local minima within 100,000 iterations, while 0.4 worked but seemed to take too long to reduce the number of unsatisfied clauses. 0.35 seemed to have the best of both worlds (I'm sure there is a more optimal h value, but most importantly my tests never failed at this value), so I chose to do all testing at 0.35.
+
+CS76 - Artificial Intelligence
+Professor Alberto Quattrini Li
+PA5: Propositional Logic
