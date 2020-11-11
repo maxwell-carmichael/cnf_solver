@@ -1,4 +1,4 @@
-# Maxwell Carmichael
+# Maxwell Carmichael - 10/25/2020.
 # cs76
 import random
 import math
