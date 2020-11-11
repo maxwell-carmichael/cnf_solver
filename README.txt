@@ -1,0 +1,1 @@
+Run solve_sudoku.py. Do "py solve_sudoku.py filename.cnf" in command line.
