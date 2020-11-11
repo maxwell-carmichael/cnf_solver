@@ -1,3 +1,5 @@
+# PROVIDED in cs76, Dartmouth College,
+
 from display import display_sudoku_solution
 import random, sys
 from SAT import SAT
