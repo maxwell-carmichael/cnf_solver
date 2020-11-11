@@ -1,3 +1,5 @@
+# PROVIDED in cs76, Dartmouth College,
+
 from Sudoku import Sudoku
 import sys
 
